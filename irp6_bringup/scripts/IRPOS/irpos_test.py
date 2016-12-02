@@ -124,7 +124,7 @@ def test():
 	print 'START TEST'
 
 	irpos = IRPOS("IRpOS", "Irp6p", 6, "irp6p_manager")
-
+bkaczo
 	irpos.move_to_synchro_position(10.0)
 	
 	rot = PyKDL.Frame(PyKDL.Rotation.EulerZYZ(0.0, 0.1, 0.1), PyKDL.Vector(0.0, 0.0, 0.0))
